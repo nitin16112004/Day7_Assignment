@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Gallery</title>
+  <style>
+    body {
+      background-color: #f9f9f9;
+      display: flex;
+      justify-content: center;
+      padding: 50px 0;
+    }
+
+    .gallery-container {
+      width: 900px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+      justify-items: center;
+    }
+
+    .gallery-container img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.15);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="gallery-container">
+    <img src="team2.png" alt="Gallery 1">
+    <img src="team2.png" alt="Gallery 2">
+    <img src="team2.png" alt="Gallery 3">
+    <img src="team2.png" alt="Gallery 4">
+    <img src="team2.png" alt="Gallery 5">
+    <img src="team2.png" alt="Gallery 6">
+    <img src="team2.png"alt="Gallery 7">
+    <img src="team2.png" alt="Gallery 8">
+  </div>
+
+</body>
+</html>

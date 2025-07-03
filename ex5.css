@@ -34,7 +34,7 @@ body {
 
 .item-2 {
   grid-area: content;
-  background-image: url('team2.png');
+  background-image: url('OIP.jpeg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -43,14 +43,14 @@ body {
 
 .item-3 {
   grid-area: sidebar;
-  background-image: url('BOOK.jpg');
+  background-image: url('Book.jpeg');
   background-size: cover;
   background-position: center;
 }
 
 .item-4 {
   grid-area: footer;
-  background-image: url('BOOK.jpg');
+  background-image: url('Book.jpeg');
   background-size: cover;
   background-position: center;
 }
